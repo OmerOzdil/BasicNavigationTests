@@ -17,7 +17,7 @@ public class NavigationTests {
     private static void FireFox() throws InterruptedException {
         //set the browser type
         WebDriver driver= BrowserFactory.getDriver("firefox");
-
+        //navigate to the google
         driver.get("https://google.com");
         String titleGoogle= driver.getTitle();
 
