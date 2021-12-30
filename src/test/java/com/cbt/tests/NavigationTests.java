@@ -27,7 +27,7 @@ public class NavigationTests {
         String titleEtsy=driver.getTitle();
 
         driver.navigate().back();
-
+        //waiting is added here
         Thread.sleep(1000);
         String titleback=driver.getTitle();
 
